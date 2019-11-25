@@ -44,7 +44,7 @@
                       <a href="https://github.com/Rickmolt3">GitHub</a>
                     </li>
                     <li>
-                      <a href="https://www.meetup.com/DallasNETUG/">Dallas .NET User Group!</a>
+                      <a href="https://www.meetup.com/DallasNETUG/">Dallas .NET User Group</a>
                     </li>
                 </ul>
             </div>
@@ -69,8 +69,8 @@
 
         <!-- First Featurette -->
         <div class="featurette" id="about">
-            <img class="featurette-image img-circle img-responsive pull-right" src="images/profile.jpg">
-            <h2 class="featurette-heading">Outdoor Enthusiast, Expert Tinkerer, Professional Stack Overflower...
+            <img class="img-circle img-responsive pull-right" src="images/headshot.jpeg" alt="Work Headshot" style="height: 30%; width: 30%;">
+            <h2 class="featurette-heading">Junior C and C++ Developer
                 <span class="text-muted">If you want a motivated, smart, personable developer, I am your guy.</span>
             </h2>
             <p class="lead">Since the age of 13, I have immersed myself in world of programming. When I wrote my first Python script at this young age, I was hooked.  My passion has led me to learn languages on my own. As my skills have grown, I have built a portfolio reflecting a variety of skills. I have experience in core Front-End languages such as Html, CSS, and Javascript. I have also worked with Bootstrap, Jquery, LESS, and SASS.</p>
@@ -82,9 +82,7 @@
         <!-- Second Featurette -->
         <div class="featurette" id="services">
 
-            <h2 class="featurette-heading">Front//Back End Languages I use
-                <span class="text-muted">and Services//Applications I love</span>
-            </h2>
+            <h2 class="featurette-heading">Software Experience: </h2>
             <p class="lead"><bold>Front End:</bold> HTML, CSS, JavaScript, JQuery, Bootstrap</p>
             <p class="lead"><bold>Front End Services:</bold> Atom, GitHub, PostMan, JSFiddle</p>
             <p class="lead"><bold>Back End:</bold> C#, ASP.NET MVC, Microsoft SQL</p>
@@ -98,9 +96,7 @@
 
         <!-- Third Featurette -->
         <div class="featurette" id="contact">
-            <h2 class="featurette-heading">Send Me Some Questions
-                <span class="text-muted">Or Just Message Me For Fun.</span>
-            </h2>
+            <h2 class="featurette-heading">Contact Information: </h2>
             <p class="lead">Email: Bstrum22198@gmail.com</p>
             <p class="lead">School Email: baileystrum@my.unt.edu</p>
             <p class="lead">I linked my LinkedIn and GitHub in the NavBar Section!</p>
@@ -115,6 +111,14 @@
             <div class="row">
                 <div class="col-lg-12">
                     <p>If you are reading this turn around.</p>
+                    <p id="date"></p>
+                    <script>
+                        n =  new Date();
+                        y = n.getFullYear();
+                        m = n.getMonth() + 1;
+                        d = n.getDate();
+                        document.getElementById("date").innerHTML = "Current Date: " + m + "/" + d + "/" +y;
+                    </script>
                     <p>Bailey Strum &copy 2019</p>
                 </div>
             </div>
